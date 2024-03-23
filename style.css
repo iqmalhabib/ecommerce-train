@@ -671,7 +671,12 @@ footer .copyright{
 	color: #fff;
 }
 
-
+/* Add this CSS to hide the close button on desktop */
+@media only screen and (min-width: 768px) {
+	#close {
+	  display: none;
+	}
+  }
 
 
 
@@ -874,9 +879,4 @@ footer .copyright{
 		flex-wrap: wrap;
 	}
 }
-/* Add this CSS to hide the close button on desktop */
-@media only screen and (min-width: 768px) {
-	#close {
-	  display: none;
-	}
-  }
+
